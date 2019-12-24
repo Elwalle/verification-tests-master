@@ -1,0 +1,9 @@
+click_logout:
+  elements:
+  - selector:
+      xpath: //*[@data-test='user-dropdown']
+    op: click
+  - selector:
+      visible_text: !ruby/regexp /Log.*out/
+    type: a
+    op: click
